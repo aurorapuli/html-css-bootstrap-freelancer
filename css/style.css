@@ -24,16 +24,24 @@ section{
 
 .green{
     background-color:#1abc9c ;
+    color: white;
 }
 
 
 /* DEFOULT */
 
-[class*="col"]{
+/* [class*="col"]{
     background-color: yellow;
+    border: 1px solid black;
+} */
+
+
+
+.my-immagine{
+    color: red;
     border: 1px solid black;
 }
 
-.my-height{
-    height: 100px;
+.my-immagine img{
+    width: 100%;
 }
