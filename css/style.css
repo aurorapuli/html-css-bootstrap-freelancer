@@ -8,7 +8,7 @@
 /* stili di pagina */
 
 
-header{
+header, footer{
     background-color:#2c3e50;
     color: white;
     padding: 20px 0;
@@ -27,21 +27,14 @@ section{
     color: white;
 }
 
+.my-immagine img{
+    width: 100%;
+}
 
 /* DEFOULT */
 
-/* [class*="col"]{
+footer .col{
+    height: 50px;
     background-color: yellow;
     border: 1px solid black;
-} */
-
-
-
-.my-immagine{
-    color: red;
-    border: 1px solid black;
-}
-
-.my-immagine img{
-    width: 100%;
 }
