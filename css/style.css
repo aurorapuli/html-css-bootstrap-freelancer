@@ -39,13 +39,46 @@ section{
     height: 100px;
 }
 
-.green{
+#green{
     background-color:#1abc9c ;
     color: white;
 }
 
-.my-linewhite{
-    border: 2px solid white;    
+
+.my-linestar{
+    position: relative;
+}
+
+#green .my-linewhite{
+    border: 1px solid white; 
+    width: 290px;   
+}
+
+#my-white .my-linewhite{
+    border: 1px solid black; 
+    width: 290px;   
+}
+
+#green .fa-star{
+    position: absolute;
+    top: 50%;
+    background-color: #1abc9c;
+    padding: 5px;
+    left: 50%;
+    font-size: 16px;
+    transform: translate;
+    transform: translate(-10px , -12px);
+}
+
+#my-white .fa-star{
+    position: absolute;
+    top: 50%;
+    background-color: white;
+    padding: 5px;
+    left: 50%;
+    font-size: 16px;
+    transform: translate;
+    transform: translate(-10px , -12px);
 }
 
 .my-immagine img{
