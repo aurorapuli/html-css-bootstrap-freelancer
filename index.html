@@ -100,29 +100,30 @@
         <div class="container px-5 text-center">
             <h2>CONTACT ME</h2>
             <div><hr></div>
-            <form class="text-start">
+            <form action="#" method="post" class="text-start">
                 <div class="row mb-3">
-                  <label for="inputEmail3" class="col-sm-2 col-form-label">Name</label>
+                  <label for="inputEmail3" class="col-sm-2 col-form-label">Name*</label>
                   <div class="col-sm-10">
-                    <input type="text" class="form-control" id="inputEmail3">
+                    <input type="text" class="form-control" id="inputEmail3" placeholder="inserisci il tuo nome" required>
                   </div>
                 </div>
                 <div class="row mb-3">
-                  <label for="inputPassword3" class="col-sm-2 col-form-label">Email Address</label>
+                  <label for="inputPassword3" class="col-sm-2 col-form-label">Email Address*</label>
                   <div class="col-sm-10">
-                    <input type="email" class="form-control" id="inputEmail3">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Inserisci la tua email" required>
                   </div>
                 </div>
                 <div class="row mb-3">
-                    <label for="inputPassword3" class="col-sm-2 col-form-label">Phone Numbers</label>
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Phone Numbers*</label>
                     <div class="col-sm-10">
-                      <input type="email" class="form-control" id="inputEmail3">
+                      <input type="text" class="form-control" id="inputEmail3" placeholder="Inserisci il tuo numero di telefono" required>
                     </div>
                   </div>
                   <div class="row mb-3 border-top-1" >
                     <label for="inputPassword3" class="col-sm-2 col-form-label">Message</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" id="inputEmail3">
+                        <textarea class="form-control" id="inputEmail3" name="name" rows="8" cols="88" placeholder="Inserisci testo">
+                        </textarea>
                     </div>
                   </div>
                 <div class="row mb-3">
@@ -130,7 +131,7 @@
                   </div>
                 </div>
                 <button type="button" class="btn btn-outline-light btn-lg green">Send</button>
-              </form>
+            </form>
         </div>
     </section>
 
